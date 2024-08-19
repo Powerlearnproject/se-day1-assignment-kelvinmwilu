@@ -7,7 +7,6 @@ It is the systematic and disciplined approach in the design, development, mainte
 •	Scalability: Software engineering principles support the design of systems that can scale effectively as user demands grow. This is important for handling increased loads and ensuring that systems remain responsive and performant.
 •	Maintainability: Good software engineering practices ensure that software is maintainable and adaptable to future changes. This is vital for long-term sustainability, as software systems often require updates and enhancements over time.
 •	Risk Management: Systematic approaches to software development help identify and manage risks early in the process. This includes risks related to functionality, performance, security, and compliance, reducing the likelihood of costly issues later.
-
 Identify and describe at least three key milestones in the evolution of software engineering.
 •	High-Level Programming Languages (1950s-1960s): The creation of languages like Fortran and COBOL allowed programmers to write code in more abstract, human-readable terms, simplifying development and making software more scalable.
 •	Structured Programming (1960s-1970s): Promoted by Edsger Dijkstra, this approach emphasized breaking down programs into smaller, manageable modules and avoiding unstructured code (e.g., goto statements), improving software quality and maintainability.
@@ -21,8 +20,6 @@ The Software Development Life Cycle (SDLC) consists of the following key phases:
 •	Testing: Verifying that the software works as intended, fixing bugs, and ensuring quality and performance.
 •	Deployment: Releasing the software to users, either as a full release or in phases.
 •	Maintenance: Ongoing support, bug fixes, and updates after the software is deployed to keep it functional and up-to-date.
-
-
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
 Waterfall is a linear, sequential approach where each phase (planning, design, development, testing) is completed before the next begins. Agile is an iterative, flexible approach that develops software in small cycles (sprints), with regular client feedback.
 •	Flexibility: Waterfall is rigid, making changes difficult once a phase is done; Agile is highly flexible, allowing changes throughout the process.
@@ -58,7 +55,6 @@ Examples:
 •	Git: The most widely used distributed VCS, which allows developers to work independently and then merge their changes. Platforms like GitHub, GitLab, and Bitbucket use Git as their backend.
 •	Subversion (SVN): A centralized VCS where all code changes are stored on a central server, and developers check out code to work on.
 •	Mercurial: A distributed VCS similar to Git, known for its ease of use and scalability in large projects.
-
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
 1. Managing Complex Codebases
 •	Challenge: As projects grow, the codebase becomes more complex, making it harder to understand, maintain, and debug.
@@ -76,7 +72,6 @@ o	Prioritization: Use techniques like Moscow (Must Have, Should Have, Could Have
 •	Strategies:
 o	Use Debugging Tools: Leverage IDE debuggers and logging frameworks to trace and identify the root cause of issues quickly.
 o	Automated Testing: Implement automated unit and integration tests to catch bugs early in the development cycle before they become complex problems.
-
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
 Unit Testing:
 Definition: Tests individual components or functions of the code in isolation.
@@ -90,11 +85,9 @@ Importance: Verifies the overall behaviour and performance of the software, ensu
 Acceptance Testing:
 Definition: Tests the software from the user's perspective to ensure it meets business needs and user requirements.
 Importance: Confirms that the system is ready for release and that it satisfies the customer’s expectations.
-
 #Part 2: Introduction to AI and Prompt Engineering
 Define prompt engineering and discuss its importance in interacting with AI models.
 Prompt engineering is the process of designing and crafting precise inputs or instructions (prompts) to effectively interact with AI models, particularly large language models (LLMs) like GPT. It involves creating queries that guide the model to produce the most relevant, accurate, and coherent responses.
-
 Importance of Prompt Engineering:
 Maximizing Accuracy: Well-crafted prompts can ensure that the AI model produces precise and contextually appropriate answers, reducing ambiguity and errors.
 Optimizing Performance: A properly structured prompt can enhance the model's ability to handle complex tasks, leading to more efficient and relevant outputs.
@@ -104,4 +97,3 @@ Reducing Bias: Thoughtfully designed prompts can mitigate biases in model respon
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
 VAGUE ; tell me how a car moves.
 Improved : Explain to me how a car with diesel powered combustion engine moves.
-
